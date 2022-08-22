@@ -1,0 +1,21 @@
+<p>contact works!</p>
+<!-- <ul *ngFor = "let msg of msgs">
+    <li>{{msg.name}} - {{msg.email}} - {{ msg.message}}</li>
+</ul> -->
+
+<form [formGroup]="msgForm"  (ngSubmit)="addMsg()">
+    <label>
+        Name:
+        <input type="text" formControlName="name" />
+    </label>
+    <label>
+        Email:
+        <input type="text" formControlName="email" />
+    </label>
+    <label>
+        Message:
+        <input type="text" formControlName="message" />
+    </label>
+
+    <button type="submit">Send</button>
+</form>
