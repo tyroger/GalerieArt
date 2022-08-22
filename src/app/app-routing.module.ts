@@ -5,6 +5,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { PeinturesComponent } from './components/peintures/peintures.component';
 import { ScrupturesComponent } from './components/scruptures/scruptures.component';
 import { PhotosComponent } from './components/photos/photos.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:"peintures",component:PeinturesComponent},
   {path:"scruptures",component:ScrupturesComponent},
   {path:"photos",component:PhotosComponent},
+  {path:"contact",component:ContactComponent},
   {path:"**", component:NotFoundComponent}
 ];
 
