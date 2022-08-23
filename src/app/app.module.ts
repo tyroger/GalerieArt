@@ -10,6 +10,7 @@ import { ScrupturesComponent } from './components/scruptures/scruptures.componen
 import { PhotosComponent } from './components/photos/photos.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { AddArticleComponent } from './components/add-article/add-article.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ContactComponent } from './components/contact/contact.component';
     ScrupturesComponent,
     PhotosComponent,
     NotFoundComponent,
-    ContactComponent
+    ContactComponent,
+    AddArticleComponent
   ],
   imports: [
     FormsModule,
