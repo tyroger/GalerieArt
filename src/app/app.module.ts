@@ -12,6 +12,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ContactComponent } from './components/contact/contact.component';
 import {ButtonModule} from 'primeng/button';
 import {ImageModule} from 'primeng/image';
+import {DividerModule} from 'primeng/divider';
+import {InputTextModule} from 'primeng/inputtext';
 
 
 import {TabMenuModule} from 'primeng/tabmenu';
@@ -27,7 +29,7 @@ import {MenuModule} from 'primeng/menu';
     ScrupturesComponent,
     PhotosComponent,
     NotFoundComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     FormsModule,
@@ -37,7 +39,10 @@ import {MenuModule} from 'primeng/menu';
     MenuModule,
     TabMenuModule,
     ButtonModule,
-    ImageModule
+    ImageModule,
+    DividerModule,
+    InputTextModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

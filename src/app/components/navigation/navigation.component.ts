@@ -15,7 +15,7 @@ export class NavigationComponent implements OnInit {
     this.items = [
       { label: 'Galerie_test', routerLink:"/homepage"},
       { label: 'Peintures', routerLink:"/peintures"},
-      { label: 'Scruptures', routerLink:"/srcupture"},
+      { label: 'Scruptures', routerLink:"/scruptures"},
       { label: 'Photos', routerLink:"/photos"},
       { label: 'Contact', routerLink:"/contact"},
     ];
