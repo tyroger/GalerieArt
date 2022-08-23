@@ -2,7 +2,7 @@ export interface Article{
     id: number;
     title : string;
     artist : string;
-    editionDate : Date;
+    editionDate : string;
     price : number;
     imageUrl : string;
     category : string; 

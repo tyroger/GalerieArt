@@ -10,6 +10,12 @@ import { ScrupturesComponent } from './components/scruptures/scruptures.componen
 import { PhotosComponent } from './components/photos/photos.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ContactComponent } from './components/contact/contact.component';
+import {ButtonModule} from 'primeng/button';
+import {ImageModule} from 'primeng/image';
+
+
+import {TabMenuModule} from 'primeng/tabmenu';
+import {MenuModule} from 'primeng/menu';
 
 
 @NgModule({
@@ -27,7 +33,11 @@ import { ContactComponent } from './components/contact/contact.component';
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MenuModule,
+    TabMenuModule,
+    ButtonModule,
+    ImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
