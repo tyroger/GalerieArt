@@ -1,35 +1,34 @@
-<p>add-article works!</p>
-
+<h2>Ajouter une oeuvre</h2>
 <form [formGroup]="articleForm"  (ngSubmit)="addArticle()">
     <label>
         ID:
-        <input type="text" formControlName="id" />
+        <input type="text" formControlName="id" pInputText class="p-inputtext-sm"/>
     </label>
     <label>
         Title:
-        <input type="text" formControlName="title" />
+        <input type="text" formControlName="title" pInputText class="p-inputtext-sm"/>
     </label>
     <label>
         Artist:
-        <input type="text" formControlName="artist" />
+        <input type="text" formControlName="artist" pInputText class="p-inputtext-sm" />
     </label>
     <label>
         Date of creation:
-        <input type="text" formControlName="editionDate" />
+        <input type="text" formControlName="editionDate"  pInputText class="p-inputtext-sm" />
     </label>
     <label>
         Price:
-        <input type="text" formControlName="price" />
+        <input type="text" formControlName="price" pInputText class="p-inputtext-sm"/>
     </label>
     <label>
         Image url:
-        <input type="text" formControlName="imageUrl" />
+        <input type="text" formControlName="imageUrl" pInputText class="p-inputtext-sm"/>
     </label>
     <label>
         Category:
-        <input type="text" formControlName="category" />
+        <input type="text" formControlName="category" pInputText class="p-inputtext-sm"/>
     </label>
+<hr>
 
-
-    <button type="submit" [disabled]="!articleForm.valid">Send</button>
+    <button pButton type="button" label="Send" class="p-button-sm" [disabled]="!articleForm.valid"></button>
 </form>
