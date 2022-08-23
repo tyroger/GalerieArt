@@ -1,1 +1,7 @@
-<p>homepage works!</p>
+<div *ngFor="let article of articles">
+    <div>
+       <p-image [src]="article.imageUrl" alt="Image" width="800"></p-image>
+    </div>
+</div>
+
+
