@@ -17,6 +17,7 @@ import {ButtonModule} from 'primeng/button';
 import {ImageModule} from 'primeng/image';
 import {DividerModule} from 'primeng/divider';
 import {InputTextModule} from 'primeng/inputtext';
+import {InputTextareaModule} from 'primeng/inputtextarea';
 
 
 import {TabMenuModule} from 'primeng/tabmenu';
@@ -46,7 +47,8 @@ import {MenuModule} from 'primeng/menu';
     ButtonModule,
     ImageModule,
     DividerModule,
-    InputTextModule
+    InputTextModule,
+    InputTextareaModule
 
   ],
   providers: [],
