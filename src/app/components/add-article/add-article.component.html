@@ -1,0 +1,35 @@
+<p>add-article works!</p>
+
+<form [formGroup]="articleForm"  (ngSubmit)="addArticle()">
+    <label>
+        ID:
+        <input type="text" formControlName="id" />
+    </label>
+    <label>
+        Title:
+        <input type="text" formControlName="title" />
+    </label>
+    <label>
+        Artist:
+        <input type="text" formControlName="artist" />
+    </label>
+    <label>
+        Date of creation:
+        <input type="text" formControlName="editionDate" />
+    </label>
+    <label>
+        Price:
+        <input type="text" formControlName="price" />
+    </label>
+    <label>
+        Image url:
+        <input type="text" formControlName="imageUrl" />
+    </label>
+    <label>
+        Category:
+        <input type="text" formControlName="category" />
+    </label>
+
+
+    <button type="submit" [disabled]="!articleForm.valid">Send</button>
+</form>

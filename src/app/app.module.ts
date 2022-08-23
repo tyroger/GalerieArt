@@ -10,12 +10,16 @@ import { ScrupturesComponent } from './components/scruptures/scruptures.componen
 import { PhotosComponent } from './components/photos/photos.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ContactComponent } from './components/contact/contact.component';
+
+import { AddArticleComponent } from './components/add-article/add-article.component';
+
 import {ButtonModule} from 'primeng/button';
 import {ImageModule} from 'primeng/image';
 
 
 import {TabMenuModule} from 'primeng/tabmenu';
 import {MenuModule} from 'primeng/menu';
+
 
 
 @NgModule({
@@ -27,7 +31,8 @@ import {MenuModule} from 'primeng/menu';
     ScrupturesComponent,
     PhotosComponent,
     NotFoundComponent,
-    ContactComponent
+    ContactComponent,
+    AddArticleComponent
   ],
   imports: [
     FormsModule,

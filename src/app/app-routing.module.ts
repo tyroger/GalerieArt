@@ -7,6 +7,7 @@ import { ScrupturesComponent } from './components/scruptures/scruptures.componen
 import { PhotosComponent } from './components/photos/photos.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { AddArticleComponent } from './components/add-article/add-article.component';
 
 const routes: Routes = [
   {path:"",component:HomepageComponent},
@@ -15,7 +16,9 @@ const routes: Routes = [
   {path:"scruptures",component:ScrupturesComponent},
   {path:"photos",component:PhotosComponent},
   {path:"contact",component:ContactComponent},
+  {path:"add-article", component:AddArticleComponent},
   {path:"**", component:NotFoundComponent}
+
 ];
 
 @NgModule({
